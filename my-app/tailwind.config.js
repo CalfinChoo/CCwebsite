@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       colors: {
         "c-purple": "#170A1C",
-        "c-jasmine": "#BCF8EC",
+        "c-blue": "#256EFF",
         "c-ruby": "#E0115F",
+        "c-green": "#06A77D",
       },
     },
   },
