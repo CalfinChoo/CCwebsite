@@ -6,7 +6,7 @@ function Header() {
     <header className="flex justify-around py-9 sticky top-0 bg-c-purple border-b-2 border-b-c-ruby items-center z-50">
         <a 
         className="font-bold text-2xl italic flex items-center"
-        href="/"
+        href="/portfolio"
         onMouseOver={() => (setLogo("transition-all duration-300 text-c-ruby"))}
         onMouseOut={() => (setLogo("transition-all duration-300 text-white"))}
         >
