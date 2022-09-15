@@ -8,6 +8,8 @@ module.exports = {
         "c-blue": "#256EFF",
         "c-ruby": "#E0115F",
         "c-green": "#06A77D",
+        "c-sky": "#46A2FF",
+        "c-violet": "#57068C",
       },
     },
   },
