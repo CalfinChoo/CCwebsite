@@ -25,28 +25,73 @@ function App() {
   const [color2, setColor2] = useState("white");
 
   return (
-    <div className="text-white bg-c-purple min-w-[900px]">
+    <div className="text-white bg-c-purple min-w-[900px] font-sans">
       <header className="flex justify-around py-9 sticky top-0 bg-c-purple border-b-2 border-b-c-ruby items-center z-50">
-        <span className="font-bold text-2xl italic">Calvin Chu</span>
+        <p className="font-bold text-2xl italic">
+          <span className="text-c-ruby">C</span>alvin{" "}
+          <span className="text-c-ruby">C</span>hu
+        </p>
         <nav className="flex">
           <ul className="flex flex-row space-x-7">
             <li>
-              <a href="#about">About</a>
+              <a
+                href="#about"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a
+                href="#education"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                Education
+              </a>
             </li>
             <li>
-              <a href="#experience">Experience</a>
+              <a
+                href="#experience"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                Experience
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a
+                href="#projects"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a
+                href="#skills"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a
+                href="#contact"
+                className="transition-all"
+                onMouseOver={({ target }) => (target.style.color = "#E0115F")}
+                onMouseOut={({ target }) => (target.style.color = "white")}
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
@@ -54,10 +99,10 @@ function App() {
       <section className="about-section flex justify-center" id="about">
         <div className="w-2/3 my-40 flex justify-between">
           <div className="w-2/3 flex flex-col justify-center">
-            <h1 className="text-4xl font-bold mb-10">
+            <h1 className="text-5xl font-bold mb-10">
               Hello, my name is <span className="text-c-ruby">Calvin</span>.
             </h1>
-            <p className="mb-5 mr-7">
+            <p className="text-xl mb-5 mr-7">
               I'm currently a <span className="text-c-ruby">Junior</span> at the
               <span className="text-c-ruby">
                 {" "}
@@ -66,11 +111,11 @@ function App() {
               studying <span className="text-c-ruby">Computer Science</span> and
               minoring in <span className="text-c-ruby">Mathematics</span>.
             </p>
-            <p className="mb-14 mr-7">
+            <p className="text-lg mb-14 mr-7">
               My main interests lie in full stack and software development,
               machine learning, and artificial intelligence.
             </p>
-            <p className="mr-7">
+            <p className="text-lg mr-7">
               Besides programming, I love Pokémon, watching YouTube, and
               spending time with family and friends.
             </p>
@@ -466,7 +511,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="mailto:cc6923@nyu.edu"
-                    onMouseOver={() => setColor0("black")}
+                    onMouseOver={() => setColor0("#E0115F")}
                     onMouseOut={() => setColor0("white")}
                   >
                     <MdEmail
@@ -483,7 +528,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/calvin-chu-283497222/"
-                    onMouseOver={() => setColor1("black")}
+                    onMouseOver={() => setColor1("#E0115F")}
                     onMouseOut={() => setColor1("white")}
                   >
                     <BsLinkedin
@@ -500,7 +545,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/CalfinChoo"
-                    onMouseOver={() => setColor2("black")}
+                    onMouseOver={() => setColor2("#E0115F")}
                     onMouseOut={() => setColor2("white")}
                   >
                     <FaGithub
