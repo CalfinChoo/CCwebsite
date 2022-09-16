@@ -31,7 +31,7 @@ function Experience() {
                   </li>
                   <li>
                     Coordinating with other assistants and the professor to
-                    ensure adequate instruction and management
+                    ensure best instruction and management
                   </li>
                 </ol>
               </div>
