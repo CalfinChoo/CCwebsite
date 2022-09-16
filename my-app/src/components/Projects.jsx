@@ -3,6 +3,8 @@ import p0 from "../static/media/p0.PNG";
 import p1 from "../static/media/p1.PNG";
 import p2 from "../static/media/p2.PNG";
 import p3 from "../static/media/p3.PNG";
+import p4 from "../static/media/p4.PNG";
+import p5 from "../static/media/p5.PNG";
 
 function Projects() {
     return(
@@ -94,6 +96,61 @@ function Projects() {
                 <div className="proj-s3">
                   <p className="font-bold">
                     HTML ∙ CSS (Bootstrap) ∙ Flask ∙ SQLite
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div className="proj5 relative">
+              <img src={p4} alt="p4" className="object-contain" />
+              <a
+                className="p-5 h-full w-full transition-all absolute bg-black/60 top-0 left-0 opacity-0 hover:opacity-100 cursor-pointer flex flex-col justify-between"
+                target="_blank"
+                rel="noreferrer"
+                href="https://keen-malabi-b8ebfc.netlify.app/"
+              >
+                <div>
+                  <div className="proj-s1">
+                    <h1 className="font-bold text-xl">Hao's Platforming Journey</h1>
+                  </div>
+                  <hr className="w-1/2 mb-3"></hr>
+                  <div className="proj-s2">
+                    <p>
+                      A HTML canvas-based platformer inspired by the game <span className="italic">Celeste</span> that I made 
+                      for fun.
+                    </p>
+                  </div>
+                </div>
+                <div className="proj-s3">
+                  <p className="font-bold">
+                    HTML ∙ CSS ∙ JS
+                  </p>
+                </div>
+              </a>
+            </div>
+            
+            <div className="proj6 relative">
+              <img src={p5} alt="p5" className="object-contain" />
+              <a
+                className="p-5 h-full w-full transition-all absolute bg-black/60 top-0 left-0 opacity-0 hover:opacity-100 cursor-pointer flex flex-col justify-between"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/william-lin7/potato_monkeys__wlin01-jlin02-cchu00-kcai00"
+              >
+                <div>
+                  <div className="proj-s1">
+                    <h1 className="font-bold text-xl">COV-19 in the World</h1>
+                  </div>
+                  <hr className="w-1/2 mb-3"></hr>
+                  <div className="proj-s2">
+                    <p>
+                    An interactive visual representation of the spread of COVID-19 globally using data from the COVID-19 API.
+                    </p>
+                  </div>
+                </div>
+                <div className="proj-s3">
+                  <p className="font-bold">
+                    HTML ∙ CSS ∙ JS ∙ D3 ∙ Flask
                   </p>
                 </div>
               </a>

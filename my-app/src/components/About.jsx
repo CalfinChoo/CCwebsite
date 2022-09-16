@@ -1,15 +1,28 @@
 import React from "react";
+import Typewriter from 'typewriter-effect';
 import photo from "../static/media/photo.jpg";
 
 function About() {
     return(
         <section className="about-section flex justify-center" id="about">
-        <div className="w-2/3 my-40 flex justify-between">
+        <div className="w-2/3 max-w-[1000px] my-40 flex justify-between">
           <div className="w-2/3 flex flex-col justify-center">
-            <h1 className="text-4xl font-bold mb-10">
-              Hello, my name is <span className="text-c-ruby">Calvin</span>.
+            <h1 className="font-bold mb-10 flex items-end">
+              <span className="text-xl mr-2">Hello, my name is</span>
+              {/* <span className="text-5xl text-c-ruby">Calvin Chu.</span> */}
+              <span className="text-5xl text-c-ruby">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                  .typeString('Calvin')
+                  .pauseFor(600)
+                  .typeString('.')
+                  .start();
+                }}
+              />
+              </span>
             </h1>
-            <p className="text-lg mb-16 mr-7">
+            <p className="text-lg mb-7 mr-7">
               I'm currently a <span className="font-bold text-c-ruby">Junior</span> at the
               <span className="font-bold text-c-ruby">
                 {" "}
