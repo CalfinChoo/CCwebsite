@@ -26,8 +26,7 @@ function Experience() {
                     their homework, labs, and other course material concerns
                   </li>
                   <li>
-                    Leading weekly labs with 60+ students and evaluating their
-                    performance
+                    Leading weekly labs in which 60+ students recieve lecture, supervision, and evaluation on their work
                   </li>
                   <li>
                     Coordinating with other assistants and the professor to
