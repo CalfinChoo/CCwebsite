@@ -4,7 +4,7 @@ import photo from "../static/media/photo.jpg";
 
 function About() {
   const name1 = "Hello, my name is";
-  const name2 = "Calvin Chu.";
+  const name2 = "Calvin Chu. " + "👋";
   const greeting = {
     hidden: { opacity: 1 },
     visible: {
@@ -42,7 +42,7 @@ function About() {
   };
   return (
     <section className="about-section flex justify-center" id="about">
-      <div className="w-2/3 max-w-[1000px] my-40 flex justify-between">
+      <div className="w-2/3 max-w-[1000px] my-48 flex justify-between">
         <div className="w-2/3 flex flex-col justify-center">
           <h1 className="mb-10">
             <motion.h1
