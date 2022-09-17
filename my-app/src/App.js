@@ -33,7 +33,6 @@ function App() {
         <hr className="w-72" />
       </div>
       <Contact />
-      
     </div>
   );
 }
