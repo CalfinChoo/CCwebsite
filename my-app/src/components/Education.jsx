@@ -76,7 +76,7 @@ function Education() {
                 <span className="font-bold italic">
                   Object Oriented Programming, Design & Analysis of Algorithms,
                   Computer Architecture and Organization, Discrete Mathematics,
-                  Data Analysis, Linear Algebra and Differntial Equations
+                  Data Analysis, Linear Algebra and Differential Equations
                 </span>
               </li>
               <li>
