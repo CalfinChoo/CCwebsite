@@ -27,7 +27,7 @@ function Experience() {
                   supervision, and evaluation on their work
                 </li>
                 <li>
-                  Coordinating with other assistants and the professor to ensure
+                  Coordinating with the professor and other assistants to ensure
                   best instruction and management
                 </li>
               </ol>

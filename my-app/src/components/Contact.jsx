@@ -71,7 +71,7 @@ function Contact() {
           <div className="text-center mb-10">
             <p className="text-slate-400">
               Last updated on{" "}
-              <span className="text-c-ruby">September 19, 2022</span>
+              <span className="text-c-ruby">September 22, 2022</span>
             </p>
           </div>
         </div>

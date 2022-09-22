@@ -4,7 +4,7 @@ import photo from "../static/media/photo.jpg";
 
 function About() {
   const name1 = "Hello, my name is";
-  const name2 = "Calvin Chu. " + "👋";
+  const name2 = "Calvin Chu. 👋";
   const greeting = {
     hidden: { opacity: 1 },
     visible: {
@@ -120,11 +120,7 @@ function About() {
         </div>
         <div className="w-1/3 flex items-center">
           <div className="h-fit">
-            <img
-              src={photo}
-              alt="Photo"
-              className="object-contain rounded-full"
-            />
+            <img src={photo} alt="me" className="object-contain rounded-full" />
           </div>
         </div>
       </div>
