@@ -3,15 +3,31 @@ import React from "react";
 function Experience() {
   return (
     <section className="experience-section flex justify-center" id="experience">
-      <div className="experience w-2/3 my-40 flex content-center flex-col">
-        <header className="font-bold text-3xl mb-10">Experience</header>
-        <div className="flex justify-center">
-          <div className="exp1 w-11/12 mb-10">
+      <div className="experience my-40 flex content-center flex-col items-center w-7/12">
+        <header className="font-bold text-3xl mb-10 text-center font-chango">
+          Experience
+        </header>
+        <div className="flex justify-center w-full">
+          <div className="exp1 mb-10 w-full">
             <div className="text-lg exp-s1 flex flex-row justify-between mb-1">
-              <h1 className="font-bold mr-7">
-                Course Assistant for Programming and Problem Solving
-              </h1>
-              <span className="text-base text-right">Sep 2022 - Present</span>
+              <h1 className="font-bold mr-7">Software Developer</h1>
+              <span className="text-base text-right text-c-ruby font-bold">
+                Aug 2024 - Present
+              </span>
+            </div>
+            <div className="exp-s2 italic mb-5">
+              <h1>BNY</h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center w-full">
+          <div className="exp1 mb-10 w-full">
+            <div className="text-lg exp-s1 flex flex-row justify-between mb-1">
+              <h1 className="font-bold mr-7">Teaching Assistant</h1>
+              <span className="text-base text-right text-c-ruby font-bold">
+                Sep 2022 - May 2024
+              </span>
             </div>
             <div className="exp-s2 italic mb-5">
               <h1>New York University</h1>
@@ -19,27 +35,56 @@ function Experience() {
             <div className="exp-s3">
               <ol className="list-disc list-inside">
                 <li>
-                  Conducting 15+ office hours per week to assist students with
-                  their homework, labs, and other course material concerns
-                </li>
-                <li>
-                  Leading weekly labs in which 60+ students receive lecture,
-                  supervision, and evaluation on their work
-                </li>
-                <li>
-                  Coordinating with the professor and other assistants to ensure
-                  best instruction and management
+                  Supported 480 students in Programming and Problem Solving
+                  through leading weekly Python labs, hosting 10.5 office hours
+                  per week, and coordinating with faculty to optimize
+                  instruction
                 </li>
               </ol>
             </div>
           </div>
         </div>
 
-        <div className="flex justify-center">
-          <div className="exp1 w-11/12 mb-10">
+        <div className="flex justify-center w-full">
+          <div className="exp1 mb-10 w-full">
+            <div className="text-lg exp-s1 flex flex-row justify-between mb-1">
+              <h1 className="font-bold mr-7">Software Developer Intern</h1>
+              <span className="text-base text-right text-c-ruby font-bold">
+                Jun 2023 - Aug 2023
+              </span>
+            </div>
+            <div className="exp-s2 italic mb-5">
+              <h1>BNY Mellon</h1>
+            </div>
+            <div className="exp-s3">
+              <ol className="list-disc list-inside">
+                <li>
+                  Developed a Python program for retrieving vendor data and
+                  calculating metrics, ensuring vendor accuracy and securities
+                  coverage against the golden copy data
+                </li>
+                <li>
+                  Built a Flask-based visualization tool to help employees and
+                  stakeholders quickly understand vendor performance and
+                  coverage insights
+                </li>
+                <li>
+                  Enhanced code quality by contributing JUnit modules to the
+                  DevOps initiative, while efficiently participating in Agile
+                  sprints and delivering on JIRA tickets
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-center w-full">
+          <div className="exp1 mb-10 w-full">
             <div className="text-lg exp-s1 flex flex-row justify-between mb-1">
               <h1 className="font-bold mr-7">Office Intern</h1>
-              <span className="text-base text-right">Jul 2019 - Aug 2019</span>
+              <span className="text-base text-right text-c-ruby font-bold">
+                Jul 2019 - Aug 2019
+              </span>
             </div>
             <div className="exp-s2 italic mb-5">
               <h1>Quality Touch, Inc. CDPAP Agency</h1>

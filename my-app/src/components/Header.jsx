@@ -5,18 +5,18 @@ function Header() {
   return (
     <header className="flex justify-around py-9 sticky top-0 bg-c-purple border-b-2 border-b-c-ruby items-center z-50">
       <a
-        className="font-bold text-2xl flex items-end"
+        className="font-bold text-2xl flex items-end font-playwrite"
         href="/portfolio"
         onMouseOver={() => setLogo("transition-all duration-300 text-c-ruby")}
         onMouseOut={() => setLogo("transition-all duration-300 text-white")}
       >
         <span className="text-3xl text-c-ruby">C</span>
-        <span className={logo + " mr-1"}>ALVIN</span>
+        <span className={logo + " mr-1"}>alvin</span>
         <span className="text-3xl text-c-ruby">C</span>
-        <span className={logo}>HU</span>
+        <span className={logo}>hu</span>
       </a>
       <nav className="flex">
-        <ul className="flex flex-row space-x-7">
+        <ul className="flex flex-row space-x-7 font-arimo">
           <li>
             <a
               href="#about"

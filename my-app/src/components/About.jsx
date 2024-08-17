@@ -41,7 +41,10 @@ function About() {
     },
   };
   return (
-    <section className="about-section flex justify-center" id="about">
+    <section
+      className="about-section flex justify-center font-arima"
+      id="about"
+    >
       <div className="w-2/3 max-w-[1000px] my-48 flex justify-between">
         <div className="w-2/3 flex flex-col justify-center">
           <h1 className="mb-10">
@@ -68,7 +71,7 @@ function About() {
                   <motion.span
                     key={char + "-" + index}
                     variants={letter}
-                    className="text-5xl font-bold text-c-ruby"
+                    className="text-5xl font-extrabold text-c-ruby font-arimo"
                   >
                     {char}
                   </motion.span>
@@ -83,18 +86,11 @@ function About() {
             animate="visible"
           >
             <p className="text-lg mb-7 mr-7">
-              I'm currently a{" "}
-              <span className="font-bold text-c-ruby">Junior</span> at the
-              <span className="font-bold text-c-ruby">
-                {" "}
-                New York University Tandon School of Engineering
-              </span>{" "}
-              studying{" "}
-              <span className="font-bold text-c-ruby">
-                Computer Science
-              </span>{" "}
-              and minoring in{" "}
-              <span className="font-bold text-c-ruby">Mathematics</span>.
+              I'm a{" "}
+              <span className="font-bold text-c-ruby font-arimo">
+                programmer
+              </span>
+              , enjoyer of all things problem-solving-related.
             </p>
           </motion.h2>
           <motion.h2
@@ -105,13 +101,20 @@ function About() {
           >
             <p className="text-lg mb-5 mr-7">
               My main interests lie in{" "}
-              <span className="font-bold text-c-ruby">full stack</span> and{" "}
-              <span className="font-bold text-c-ruby">
+              <span className="font-bold text-c-ruby font-arimo">
+                full stack
+              </span>{" "}
+              and{" "}
+              <span className="font-bold text-c-ruby font-arimo">
                 software development
               </span>
-              ,<span className="font-bold text-c-ruby"> machine learning</span>,
-              and{" "}
-              <span className="font-bold text-c-ruby">
+              ,
+              <span className="font-bold text-c-ruby font-arimo">
+                {" "}
+                machine learning
+              </span>
+              , and{" "}
+              <span className="font-bold text-c-ruby font-arimo">
                 artificial intelligence
               </span>
               .

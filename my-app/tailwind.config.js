@@ -11,6 +11,12 @@ module.exports = {
         "c-sky": "#46A2FF",
         "c-violet": "#57068C",
       },
+      fontFamily: {
+        arima: ["Arima", "system-ui"],
+        arimo: ["Arimo", "sans-serif"],
+        chango: ["Chango", "sans-serif"],
+        playwrite: ["Playwrite DE SAS", "cursive"],
+      },
     },
   },
   plugins: [],
