@@ -108,7 +108,7 @@ function About() {
             initial="hidden"
             animate="visible"
           >
-            <p className="text-lg mb-7 mr-7">
+            <p className="text-lg mb-7 lg:mr-7">
               I'm a{" "}
               <span className="font-bold text-c-ruby font-arimo">
                 programmer
@@ -122,7 +122,7 @@ function About() {
             initial="hidden"
             animate="visible"
           >
-            <p className="text-lg mb-5 mr-7">
+            <p className="text-lg mb-5 lg:mr-7">
               My main interests lie in{" "}
               <span className="font-bold text-c-ruby font-arimo">
                 full stack
