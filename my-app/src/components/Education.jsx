@@ -37,7 +37,7 @@ function Education() {
               <li>
                 <span className="font-bold text-c-ruby">Honors: </span>
                 <span className="font-bold italic">
-                  Founder's Day Award, Dean's List 2020-2024
+                  Founders' Day Award, Dean's List 2020-2024
                 </span>
               </li>
               <li>
