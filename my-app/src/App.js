@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="text-white bg-c-purple min-w-[900px] font-sans">
+    <div className="text-white bg-c-purple font-sans">
       <Header />
       <About />
       <div className="flex justify-center">

@@ -14,13 +14,13 @@ import linux from "../static/media/linux.png";
 function Skills() {
   return (
     <section className="skills-section flex justify-center" id="skills">
-      <div className="experience w-2/3 min-w-[900px] my-40 flex content-center flex-col">
+      <div className="experience w-3/4 my-40 flex content-center flex-col">
         <header className="font-bold text-3xl mb-10 text-center font-chango">
           Skills
         </header>
         <div className="mb-10">
-          <p className="font-bold mb-5">Coding Languages</p>
-          <div className="grid grid-cols-5 grid-flow-row gap-5">
+          <p className="font-bold text-lg mb-5">Coding Languages</p>
+          <div className="grid lg:grid-cols-5 sm:grid-cols-3 grid-flow-row gap-5">
             <div className="flex items-center">
               <div className="mr-3">
                 <img src={py} alt="Python" className="" />
@@ -87,8 +87,8 @@ function Skills() {
         </div>
 
         <div>
-          <p className="font-bold mb-5">Operating Systems</p>
-          <div className="grid grid-cols-5 grid-flow-row">
+          <p className="font-bold text-lg mb-5">Operating Systems</p>
+          <div className="grid lg:grid-cols-5 sm:grid-cols-3 grid-flow-row gap-5">
             <div className="flex items-center">
               <div className="mr-3">
                 <img src={windows} alt="Windows" className="" />

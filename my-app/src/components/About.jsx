@@ -4,7 +4,7 @@ import photo from "../static/media/photo.jpg";
 
 function About() {
   const name1 = "Hello, my name is";
-  const name2 = "Calvin Chu. 👋";
+  const name2 = "Calvin Chu. ";
   const greeting = {
     hidden: { opacity: 1 },
     visible: {
@@ -45,10 +45,10 @@ function About() {
       className="about-section flex justify-center font-arima"
       id="about"
     >
-      <div className="w-2/3 max-w-[1000px] my-48 flex justify-between">
-        <div className="w-2/3 flex flex-col justify-center">
+      <div className="lg:w-2/3 sm:w-3/4 w-5/6 max-w-[1000px] lg:my-48 sm:my-24 my-12 flex lg:justify-between lg:flex-row flex-col-reverse items-center">
+        <div className="lg:w-2/3 sm:w-3/4 w-5/6 flex flex-col justify-center lg:text-left text-center">
           <h1 className="mb-10">
-            <motion.h1
+            <motion.div
               className="load-screen--message"
               variants={greeting}
               initial="hidden"
@@ -66,18 +66,41 @@ function About() {
                 );
               })}
               <br />
-              {name2.split("").map((char, index) => {
-                return (
-                  <motion.span
-                    key={char + "-" + index}
+              {name2
+                .split("")
+                .map((char, index) => {
+                  return (
+                    <motion.span
+                      key={char + "-" + index}
+                      variants={letter}
+                      className="text-5xl font-extrabold text-c-ruby font-arimo"
+                    >
+                      {char}
+                    </motion.span>
+                  );
+                })
+                .concat([
+                  <motion.div
+                    key="wave"
                     variants={letter}
-                    className="text-5xl font-extrabold text-c-ruby font-arimo"
+                    transition={{ duration: 0.5 }}
+                    style={{ display: "inline-block" }}
                   >
-                    {char}
-                  </motion.span>
-                );
-              })}
-            </motion.h1>
+                    <motion.div
+                      animate={{ rotate: [0, 20, -20, 20, -20, 0] }}
+                      transition={{
+                        duration: 2,
+                        ease: "easeInOut",
+                        loop: Infinity,
+                        repeatDelay: 1,
+                      }}
+                      className="text-5xl"
+                    >
+                      &#x1F44B;
+                    </motion.div>
+                  </motion.div>,
+                ])}
+            </motion.div>
           </h1>
           <motion.h2
             className="load-screen--message"
@@ -121,7 +144,7 @@ function About() {
             </p>
           </motion.h2>
         </div>
-        <div className="w-1/3 flex items-center">
+        <div className="lg:w-1/3 sm:w-2/5 w-1/2 flex items-center pb-10 lg:pb-0">
           <div className="h-fit">
             <img src={photo} alt="me" className="object-contain rounded-full" />
           </div>

@@ -9,7 +9,7 @@ function Education() {
           Education
         </header>
         <div className="flex flex-col items-center">
-          <div className="w-3/4 border-2 border-white rounded-xl p-4 ease-out duration-300 hover:w-5/6">
+          <div className="sm:w-3/4 w-full border-2 border-white rounded-xl p-4 ease-out duration-300 sm:hover:w-5/6">
             <div className="flex justify-center">
               <FaGraduationCap size={40} />
             </div>
@@ -64,7 +64,7 @@ function Education() {
             <div className="w-8 h-8 border-4 border-white rounded-full"></div>
           </div>
 
-          <div className="w-3/4 border-2 border-white rounded-xl p-4 ease-out duration-300 hover:w-5/6">
+          <div className="sm:w-3/4 w-full border-2 border-white rounded-xl p-4 ease-out duration-300 sm:hover:w-5/6">
             <div className="flex justify-center">
               <FaGraduationCap size={40} />
             </div>

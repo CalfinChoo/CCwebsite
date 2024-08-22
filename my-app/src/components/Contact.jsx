@@ -9,7 +9,7 @@ function Contact() {
   const [color2, setColor2] = useState("white");
   return (
     <section className="contact-section flex justify-center" id="contact">
-      <div className="experience w-2/3 min-w-[900px] mt-40 flex content-center flex-col">
+      <div className="experience w-2/3 mt-40 flex content-center flex-col">
         <div>
           <h1 className="text-3xl font-bold text-center mb-5">
             Connect With Me!
@@ -71,7 +71,7 @@ function Contact() {
           <div className="text-center mb-10">
             <p className="text-slate-400">
               Last updated on{" "}
-              <span className="text-c-ruby">August 17, 2024</span>
+              <span className="text-c-ruby">August 21, 2024</span>
             </p>
           </div>
         </div>
